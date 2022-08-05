@@ -9,9 +9,9 @@ on:
 
 env:
   GCP_ARTIFACT_REPOSITORY: prefect-dockers
-  GCP_ARTIFACT_REPOSITORY_HOSTNAME: us-east1-docker.pkg.dev
+  GCP_ARTIFACT_REPOSITORY_HOSTNAME: europe-north1-docker.pkg.dev
   GCE_INSTANCE: prefect-docker-vm
-  GCE_INSTANCE_ZONE: us-east1-b
+  GCE_INSTANCE_ZONE: europe-north1-a
   GCE_INSTANCE_MACHINE_TYPE: e2-micro
 
   PREFECT_GCS_BLOCK_NAME: a-block-called-wanda
