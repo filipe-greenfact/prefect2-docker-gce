@@ -14,7 +14,7 @@ env:
   GCE_INSTANCE_ZONE: europe-north1-a
   GCE_INSTANCE_MACHINE_TYPE: e2-micro
 
-  PREFECT_GCS_BLOCK_NAME: a-block-called-wanda
+  PREFECT_GCS_BLOCK_NAME: gcs-prefect
   PREFECT_API_URL: "https://api.prefect.cloud/api/accounts/${{ secrets.PREFECT_ACCOUNT_ID }}/workspaces/${{ secrets.PREFECT_WORKSPACE_ID }}"
 
 jobs:
